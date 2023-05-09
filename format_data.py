@@ -50,11 +50,11 @@ def getDataSeconds(data):
 def format(input_file, output_file):
     print("Formatting")
     data = readCSV(input_file)
-    #data_map = getDataMinutes(data)
     data_map = getDataSeconds(data)
     
     # Sort dictionary based on keys
     sorted_map = dict(sorted(data_map.items()))
+    
     # Create output data matrix
     output_data = [[key, value] for key, value in sorted_map.items()] 
     
