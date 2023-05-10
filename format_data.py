@@ -65,8 +65,10 @@ def format(input_file, output_file):
     writeCSV(output_file, output_data)
 
 def main():
-    input_file  = "data/2023_05_08_set_1_min.csv"
-    output_file = "data/2023_05_08_set_1_sec.csv"
+    #input_file  = "data/2023_05_08_set_1_min.csv"
+    #output_file = "data/2023_05_08_set_1_sec.csv"
+    input_file  = "data/2023_05_10_set_1_min.csv"
+    output_file = "data/2023_05_10_set_1_sec.csv"
     format(input_file, output_file)
 
 if __name__ == "__main__":
